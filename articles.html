@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Case Files — Founders Obsession</title>
+<meta name="description" content="Every founder story we've broken down in full, day by day, as part of the 100 Days of Founders Obsession challenge.">
+<link rel="canonical" href="https://foundersobsession.com/articles/index.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%23451212'/%3E%3Ctext x='50' y='68' font-family='Arial Black, sans-serif' font-weight='900' font-size='52' fill='%23FBF3E7' text-anchor='middle'%3EFO%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --void: #150606;
+    --maroon: #451212;
+    --cream: #EFE4D2;
+    --cream-bright: #FBF3E7;
+    --max-w: 1160px;
+  }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  body{ background:var(--void); color:var(--cream); font-family:'IBM Plex Sans', sans-serif; line-height:1.6; }
+  .display{ font-family:'Anton', sans-serif; font-weight:400; text-transform:uppercase; letter-spacing:0.01em; line-height:0.98; }
+  .mono{ font-family:'IBM Plex Mono', monospace; text-transform:uppercase; letter-spacing:0.18em; font-size:0.72rem; opacity:0.65; }
+  a{ color:inherit; text-decoration:none; }
+
+  header{ position:sticky; top:0; z-index:50; background:rgba(21,6,6,0.9); backdrop-filter:blur(8px); border-bottom:1px solid rgba(239,228,210,0.08); }
+  .nav-inner{ max-width:var(--max-w); margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:18px 24px; }
+  .brand{ display:flex; align-items:center; gap:12px; }
+  .brand-mark{ display:flex; align-items:center; justify-content:center; width:38px; height:38px; background:var(--cream-bright); color:var(--void); border-radius:9px; font-family:'Anton', sans-serif; font-size:1.05rem; letter-spacing:-0.02em; }
+  .brand-word{ font-family:'Anton', sans-serif; font-size:0.98rem; letter-spacing:0.04em; line-height:1; }
+  .nav-cta{ border:1px solid rgba(239,228,210,0.35); padding:9px 18px; border-radius:999px; font-size:0.82rem; font-weight:600; white-space:nowrap; }
+  .nav-cta:hover{ background:rgba(239,228,210,0.08); border-color:var(--cream-bright); }
+
+  .shell{ max-width:var(--max-w); margin:0 auto; padding:72px 24px 100px; }
+  .head h1{ font-size:clamp(2.2rem, 5.5vw, 3.6rem); color:var(--cream-bright); margin-top:14px; }
+  .head p{ margin-top:18px; max-width:560px; color:rgba(239,228,210,0.8); }
+
+  .grid{ margin-top:56px; display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  .card{ background:var(--maroon); border:1px solid rgba(239,228,210,0.16); border-radius:14px; padding:28px 26px; display:flex; flex-direction:column; transition:border-color 0.25s ease; }
+  .card.live:hover{ border-color:var(--cream-bright); }
+  .tag{ display:inline-block; font-family:'IBM Plex Mono', monospace; font-size:0.68rem; letter-spacing:0.1em; color:var(--cream-bright); border:1px solid rgba(239,228,210,0.4); padding:4px 10px; border-radius:999px; width:fit-content; }
+  .card h3{ font-family:'Anton', sans-serif; font-size:1.4rem; margin-top:16px; color:var(--cream-bright); }
+  .card p{ margin-top:14px; font-size:0.92rem; color:rgba(239,228,210,0.82); flex-grow:1; }
+  .card .link{ margin-top:18px; font-size:0.82rem; text-decoration:underline; color:var(--cream-bright); }
+  .card.pending{ opacity:0.55; }
+
+  footer{ border-top:1px solid rgba(239,228,210,0.1); padding:56px 24px 40px; }
+  .footer-inner{ max-width:var(--max-w); margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; gap:24px; align-items:flex-start; }
+  .footer-links{ display:flex; gap:28px; flex-wrap:wrap; }
+  .footer-links a{ font-size:0.9rem; opacity:0.75; }
+  .footer-links a:hover{ opacity:1; }
+  .footer-bottom{ max-width:var(--max-w); margin:40px auto 0; padding-top:24px; border-top:1px solid rgba(239,228,210,0.08); font-size:0.78rem; color:rgba(239,228,210,0.45); display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+
+  @media (max-width:820px){ .grid{ grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a class="brand" href="../index.html">
+      <div class="brand-mark">FO</div>
+      <div class="brand-word">FOUNDERS<br>OBSESSION</div>
+    </a>
+    <a class="nav-cta" href="./index.html">← Home</a>
+  </div>
+</header>
+
+<div class="shell">
+  <div class="head">
+    <span class="mono">100 Days of Founders Obsession</span>
+    <h1 class="display">Every case file, written in full.</h1>
+    <p>Instagram gets the fast version of each story. This is where the sourced, full breakdown lives, one company at a time, for the length of the challenge.</p>
+  </div>
+
+  <div class="grid">
+    <a class="card live" href="articles/zerodha.html">
+      <span class="tag">Fintech · Day 1</span>
+      <h3>Zerodha</h3>
+      <p>How a flat fee against the entire brokerage industry's pricing model built India's largest stockbroker, without a single rupee of outside funding.</p>
+      <span class="link">Read the article →</span>
+    </a>
+    <div class="card pending">
+      <span class="tag">SaaS · Day 2</span>
+      <h3>Zoho</h3>
+      <p>Coming soon.</p>
+    </div>
+    <div class="card pending">
+      <span class="tag">FMCG · Day 3</span>
+      <h3>Haldiram's</h3>
+      <p>Coming soon.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <a class="brand" href="../index.html" style="display:flex; align-items:center; gap:12px;">
+      <div class="brand-mark">FO</div>
+      <div class="brand-word">FOUNDERS<br>OBSESSION</div>
+    </a>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/foundersobsession/" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:hello@foundersobsession.com?subject=Founder%20Story%20Submission">Submit a story</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Founders Obsession. Built obsessed, not funded.</span>
+    <span>hello@foundersobsession.com</span>
+  </div>
+</footer>
+
+</body>
+</html>
